@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0c0c0c"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        app:srcCompat="@drawable/logo_w" />
+
+    <ImageButton
+        android:id="@+id/jugar"
+        android:layout_width="285dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/img"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/jugar_logo"/>
+
+    <ImageButton
+        android:id="@+id/jugar_borracho"
+        android:layout_width="285dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/jugar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/jugar_borracho"
+        />
+
+    <ImageButton
+        android:id="@+id/propuestas"
+        android:layout_width="285dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/jugar_borracho"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/propuestas" />
+
+    <ImageButton
+        android:id="@+id/redes"
+        android:layout_width="285dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/propuestas"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/redes" />
+</RelativeLayout>
